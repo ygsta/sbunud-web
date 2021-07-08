@@ -3,6 +3,7 @@ import Head from "next/head";
 import NavMenu from "../../components/navMenu";
 import Footer from "../../components/footer";
 
+
 const Slug = () => {
   const router = useRouter()
   const { slug } = router.query
